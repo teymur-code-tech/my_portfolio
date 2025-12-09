@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Projects - Portfolio</title>
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Projects</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="blog.html">Blog</a></li>
-<li><a href="projects.html">Projects</a></li>
-</ul>
-</nav>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section class="section projects">
+      <h1>My Projects</h1>
+      <div class="gallery">
+        <!-- Example project card -->
+        <div class="project-card">
+          <img src="path/to/image1.jpg" alt="Project 1 screenshot" />
+          <h3>Project Title 1</h3>
+          <p>Short description — what it does, technologies used, your role.</p>
+          <a href="https://github.com/yourusername/project1" target="_blank">View Code</a>
+        </div>
 
-<div class="container">
-<h1>Projects</h1>
+        <div class="project-card">
+          <img src="path/to/image2.jpg" alt="Project 2 screenshot" />
+          <h3>Project Title 2</h3>
+          <p>Short description for project 2.</p>
+          <a href="https://github.com/yourusername/project2" target="_blank">View Code</a>
+        </div>
 
+        <!-- Add more project-cards as needed -->
+      </div>
+    </section>
 
-<div class="project-card">
-<h2>Personal Portfolio</h2>
-<p>A clean, elegant portfolio built with HTML & CSS.</p>
-</div>
+    <section class="section services">
+      <h2>Services / What I offer</h2>
+      <ul>
+        <li>Web Development (Frontend / Backend / Full-Stack)</li>
+        <li>UI/UX Design</li>
+        <li>Responsive & Mobile-Friendly Websites</li>
+        <li>Consulting / Mentoring / Code Review</li>
+      </ul>
+    </section>
+  </main>
 
-
-<div class="project-card">
-<h2>JavaScript Calculator</h2>
-<p>A modern styled calculator made with JS.</p>
-</div>
-
-
-<div class="project-card">
-<h2>Database Design</h2>
-<p>A small SQL database created for learning.</p>
-</div>
-</div>
+  <footer class="footer">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
 </body>
 </html>
