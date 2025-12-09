@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Blog - Portfolio</title>
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Blog</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="blog.html">Blog</a></li>
-<li><a href="projects.html">Projects</a></li>
-</ul>
-</nav>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section class="section blog-list">
+      <h1>Blog</h1>
 
-<div class="container">
-<h1>Blog</h1>
-<div class="article">
-<h2>Why I Learn Programming</h2>
-<p>Programming helps me solve problems and create products.</p>
-</div>
+      <article class="blog-post">
+        <h2><a href="#">Blog Post Title 1</a></h2>
+        <p class="post-meta">Posted on YYYY-MM-DD</p>
+        <p>Short summary / introduction of the blog post. Maybe 2–3 sentences to entice readers.</p>
+      </article>
 
+      <article class="blog-post">
+        <h2><a href="#">Blog Post Title 2</a></h2>
+        <p class="post-meta">Posted on YYYY-MM-DD</p>
+        <p>Short summary / introduction for post 2.</p>
+      </article>
 
-<div class="article">
-<h2>HTML & CSS Basics</h2>
-<p>HTML gives structure, CSS gives style. They form the web foundation.</p>
-</div>
-</div>
+      <!-- Add more blog-post articles as needed -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
 </body>
 </html>
