@@ -19,6 +19,7 @@ a {
   text-decoration: none;
 }
 
+
 /* ============================
    FULLSCREEN HERO SECTION
 =============================== */
@@ -40,7 +41,9 @@ a {
   background: rgba(0,0,0,0.45);
 }
 
-/* Top Menu on Hero Image */
+
+/* --- MENU ON IMAGE --- */
+
 .hero-menu {
   position: absolute;
   top: 30px;
@@ -51,19 +54,23 @@ a {
 
 .menu-item {
   color: #fff;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
   text-transform: uppercase;
-  transition: 0.3s ease;
+  transition: transform 0.25s ease, letter-spacing 0.25s ease, opacity 0.25s ease;
+  opacity: 0.75;
 }
 
 .menu-item:hover {
-  transform: scale(1.15);
-  letter-spacing: 2px;
-  text-decoration: underline;
+  transform: scale(1.25) translateY(-4px);
+  letter-spacing: 3px;
+  opacity: 1;
+  text-shadow: 0 0 8px rgba(255,255,255,0.7);
 }
 
-/* Hero Text */
+
+/* --- HERO TEXT --- */
+
 .hero-text {
   position: relative;
   color: #fff;
@@ -81,8 +88,9 @@ a {
   font-size: 1.3rem;
 }
 
+
 /* ============================
-   SECTIONS (OTHER PAGES)
+   SECTIONS (ABOUT / EDUCATION / EXP)
 =============================== */
 
 .section {
@@ -105,6 +113,7 @@ a {
 .experience li {
   margin-bottom: 1rem;
 }
+
 
 /* ============================
    PROJECTS PAGE
@@ -141,6 +150,7 @@ a {
   margin-top: 1rem;
 }
 
+
 /* ============================
    BLOG PAGE
 =============================== */
@@ -163,6 +173,7 @@ a {
   margin-bottom: 1rem;
 }
 
+
 /* ============================
    FOOTER
 =============================== */
@@ -174,6 +185,7 @@ a {
   color: #fff;
   margin-top: 2rem;
 }
+
 
 /* ============================
    RESPONSIVE
