@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+            </ul>
+        </nav>
+        <h1>Blog Posts</h1>
+    </header>
+
+    <section class="blog-posts">
+        <article class="post">
+            <h2>Web Design Trends 2025</h2>
+            <p>
+                Information about the latest trends and technologies in web design.
+            </p>
+            <p class="more-text" style="display:none;">
+                In 2025, minimalism, dark mode designs, micro-interactions, and animations will be more widely used. User experience (UX) and speed optimization will be the main priorities. CSS Grid and Flexbox layouts, as well as new JavaScript features, will allow creating more interactive websites.
+            </p>
+            <button class="read-more-btn">Read More...</button>
+        </article>
+
+        <article class="post">
+            <h2>Projects with React.js</h2>
+            <p>
+                Tips for creating interactive web applications using React.js.
+            </p>
+            <p class="more-text" style="display:none;">
+                React.js component-based architecture allows creating reusable UI components. For state management, Redux or Context API can be used. For better performance, lazy loading and code splitting are recommended.
+            </p>
+            <button class="read-more-btn">Read More...</button>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Teymur Qurbanov. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const buttons = document.querySelectorAll('.read-more-btn');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const moreText = button.previousElementSibling;
+                if (moreText.style.display === "none") {
+                    moreText.style.display = "block";
+                    button.textContent = "Show Less...";
+                } else {
+                    moreText.style.display = "none";
+                    button.textContent = "Read More...";
+                }
+            });
+        });
+    </script>
+</body>
+</html>
