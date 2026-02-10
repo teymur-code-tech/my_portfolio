@@ -2,45 +2,163 @@
 <html lang="az">
 <head>
     <meta charset="UTF-8">
+    <title>Cybersecurity Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Ana Səhifə</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0f172a;
+            color: #e5e7eb;
+        }
+        header {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #38bdf8;
+        }
+        nav a {
+            color: #e5e7eb;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #38bdf8;
+        }
+        .card {
+            background: #020617;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            color: #94a3b8;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="nav1">
-            <ul>
-                <li><a href="index.html" class="active">Home Page</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-        <h1>Hello,My name is Teymur </h1>
-        <p>Front-end developer and web designer</p>
-    </header>
 
-    <section class="about">
-        <h2 class="about2">About me</h2>
-        <div class="about-content">
-            <img class="mphoto" src ="images/1122.jpg" alt="profil">
-            <p>
-                I have hands-on experience in web development and design, with a strong focus on creating interactive and visually appealing web applications.<br> I am proficient in core web technologies including HTML, CSS, and JavaScript, and I have worked extensively with modern frameworks and libraries to build responsive, user-friendly interfaces.<br> My portfolio projects showcase my ability to combine functionality with aesthetic design, ensuring that every application I create is not only fully operational but also engaging for the user.<br> I am passionate about translating ideas into real, practical web solutions and constantly strive to learn and apply the latest industry standards and best practices in my work.
-            </p>
-        </div>
-    </section>
+<header>
+    <h1>Teymur Qurbanov</h1>
+    <p>Cybersecurity / Ethical Hacking Enthusiast</p>
+    <nav>
+        <a href="#index">Index</a>
+        <a href="#projects">Projects</a>
+        <a href="#tools">Tools</a>
+        <a href="#blog">Blog</a>
+    </nav>
+</header>
 
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML5 / CSS3 / JavaScript</li>
-            <li>React.js / Vue.js</li>
-            <li>Responsive Design / UI/UX</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </section>
+<section id="index">
+    <h2>Index</h2>
+    <div class="card">
+        <p>
+            Mən kibertəhlükəsizlik sahəsinə maraq göstərən və bu istiqamətdə
+            praktiki biliklər qazanan bir tələbəyəm. Əsas diqqətim
+            şəbəkə analizi, OSINT və test mühitlərində zəifliklərin
+            araşdırılmasına yönəlib.
+        </p>
+        <p>
+            <strong>Əsas biliklər:</strong><br>
+            • Nmap ilə şəbəkə və port analizi<br>
+            • Metasploit ilə laboratoriya mühitlərində testlər<br>
+            • GitHub üzərindən open-source security tool-larla işləmə<br>
+            • Basic Linux və Help Desk anlayışı
+        </p>
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; 2025 Teymur Qurbanov. All rights reserved.</p>
-    </footer>
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Network Scanning Practice</h3>
+        <p>
+            Test mühitlərində Nmap istifadə edərək açıq portların,
+            servis məlumatlarının və ilkin risklərin təhlili.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Vulnerability Analysis Lab</h3>
+        <p>
+            Metasploit Framework ilə laboratoriya sistemlərində
+            zəifliklərin müşahidəsi və ümumi analiz prosesi.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>OSINT Research Practice</h3>
+        <p>
+            Açıq mənbələr üzərindən informasiya toplanması və
+            strukturlaşdırılmış analiz yanaşmaları.
+        </p>
+    </div>
+</section>
+
+<section id="tools">
+    <h2>Tools & GitHub Experience</h2>
+
+    <div class="card">
+        <h3>Sublist3r</h3>
+        <p>
+            GitHub üzərindən Sublist3r aləti ilə domain-lər üçün
+            subdomain enumeration konsepti və nəticələrin analizi.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>OSINT Tools</h3>
+        <p>
+            Müxtəlif OSINT alətləri ilə açıq məlumatların toplanması,
+            filtrasiya edilməsi və təhlükəsizlik baxımından dəyərləndirilməsi.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Git & GitHub</h3>
+        <p>
+            GitHub repository-lərindən security tool-ların incələnməsi,
+            README sənədlərinin oxunması və test mühitlərində istifadə.
+        </p>
+    </div>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+
+    <div class="card">
+        <h3>OSINT nədir?</h3>
+        <p>
+            OSINT anlayışı, kibertəhlükəsizlikdə rolu və
+            real ssenarilərdə istifadəsinə ümumi baxış.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Open-Source Security Tools</h3>
+        <p>
+            GitHub üzərindən paylaşılan açıq mənbəli
+            təhlükəsizlik alətlərinin öyrənilməsinin əhəmiyyəti.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 | Cybersecurity Portfolio</p>
+</footer>
+
 </body>
 </html>
